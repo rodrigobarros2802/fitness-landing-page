@@ -96,3 +96,28 @@ header .navigation li a:hover {
     font-weight: 500;
 }
 
+.redes {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+.redes li { 
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.redes li a {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(1);
+    transform: scale(0.5);
+}
+
+.redes li a:hover {
+   transform: scale(0.8);
+   transition: 0.5s;
+}
