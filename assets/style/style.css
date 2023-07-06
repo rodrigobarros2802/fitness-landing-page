@@ -68,3 +68,20 @@ header .navigation li a {
 header .navigation li a:hover {
     color: var(--azul);
 }
+
+.conteudo {
+    max-width: 600px;
+}
+
+.conteudo .conteudoBox h2 {
+    font-size: 4em;
+    color: var(--branco);
+    line-height: 1em;
+}
+
+.conteudo .conteudoBox p {
+    font-size: 1.1em;
+    color: var(--branco);
+    margin: 20px 0;
+    font-weight: 500;
+}
