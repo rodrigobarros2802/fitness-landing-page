@@ -15,13 +15,56 @@
 }
 
 section {
-    min-height: 100vh;
+    position: relative;
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    min-height: 100vh;
     background: url(/assets/img/bg.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    display: inline-block;
+    margin-right: 40px;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header .navigation li a:hover {
+    color: var(--azul);
 }
