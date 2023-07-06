@@ -121,3 +121,29 @@ header .navigation li a:hover {
    transform: scale(0.8);
    transition: 0.5s;
 }
+
+@media (max-width: 991px) {
+    section header {
+        padding: 15px 100px;
+    }
+
+    .conteudo .conteudoBox h2 {
+        font-size: 2em;
+    }
+
+    .conteudo .conteudoBox p {
+        font-size: 1em;
+    }
+
+    section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background: url(/assets/img/bg2.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
