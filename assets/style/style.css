@@ -146,4 +146,20 @@ header .navigation li a:hover {
         justify-content: flex-start;
         align-items: center;
     }
+
+    header .navigation { 
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: var(--preto);
+        font-size: 30px;
+        margin: 20px 0;
+        z-index: 11;
+    }
 }
