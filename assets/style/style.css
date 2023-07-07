@@ -173,4 +173,14 @@ header .navigation li a:hover {
         background-size: 30px;
         cursor: pointer;
     }
+
+    .toggleMenu.active {
+        background: url(/assets/img/close.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer; 
+    }
 }
