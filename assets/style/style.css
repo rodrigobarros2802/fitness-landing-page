@@ -32,7 +32,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px 100px;
+    padding: 18px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,7 +123,7 @@ header .navigation li a:hover {
 }
 
 @media (max-width: 991px) {
-    section header {
+    header {
         padding: 15px 100px;
     }
 
@@ -136,15 +136,10 @@ header .navigation li a:hover {
     }
 
     section {
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
+        padding: 40px;
         background: url(/assets/img/bg2.jpg);
         background-size: cover;
         background-position: center;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
     }
 
     header .navigation { 
@@ -163,6 +158,10 @@ header .navigation li a:hover {
         z-index: 10;
     }
 
+    header .navigation.active {
+        display: flex;
+    }
+
     .toggleMenu {
         position: relative;
         background: url(/assets/img/menu.png);
@@ -172,6 +171,7 @@ header .navigation li a:hover {
         background-repeat: no-repeat;
         background-size: 30px;
         cursor: pointer;
+        z-index: 11;
     }
 
     .toggleMenu.active {
@@ -181,6 +181,5 @@ header .navigation li a:hover {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
-        cursor: pointer; 
     }
 }
