@@ -22,9 +22,9 @@
 <h3 align="center"></h3>
 
 <h1 align="center">:hammer_and_wrench: Tecnologias</h1>
-<h3 align="center"></h3>
-<h3 align="center"></h3>
-<h3 align="center"></h3>
+<h3 align="center">HTML5</h3>
+<h3 align="center">CSS3</h3>
+<h3 align="center">Java Script</h3>
 
 <h1 align="center">:dart: Objetivo</h1>
 <h3 align="center"></h3>
@@ -40,42 +40,42 @@
 
 <h3>Imagem 1</h3>
 <div align="center">
-<img align="center" src="">
+<img align="center" src="assets/img/img1.png">
 </div>
 
 <h3>Imagem 2</h3>
 <div align="center">
-<img align="center" src="">
+<img align="center" src="assets/img/img2.png">
 </div>
 
 <h3>Imagem 3</h3>
 <div align="center">
-<img align="center" src="">
+<img align="center" src="assets/img/img3.png">
 </div>
 
 <h3>Imagem 4</h3>
 <div align="center">
-<img align="center" src="">
+<img align="center" src="assets/img/img4.png">
 </div>
 
 <h1 align="center">Responsividade :iphone: :computer: :desktop_computer:</h1>
 
 <h1 align="center">:movie_camera: Vídeo Apresentação do Projeto</h1>
 <p align="center">
-<img width="600" height="300" src="">
+<img width="600" height="300" src="assets/img/gif-projeto.gif">
 </p>
 
 <h1 align="center">:iphone: Mobile</h1>
-<p align="center"><img src=""></p>
+<p align="center"><img src="assets/img/img3.png"></p>
 
 <h1 align="center">:computer: Tablet</h1>
-<p align="center"><img src=""></p>
+<p align="center"><img src="assets/img/img2.png"></p>
 
 <h1 align="center">:desktop_computer: Desktop / Notebook</h1>
-<p align="center"><img src=""></p>
+<p align="center"><img src="assets/img/img1.png"></p>
 
 <h1 align="center">:link: Links</h1>
-<h3 align="center">Deploy GitHub Pages - </h3>
+<h3 align="center">Deploy Vercel - https://fitness-landing-page-93ueu9g80-rodrigobarros2802.vercel.app/?vercelToolbarCode=EURl5GDa_m6e9WX</h3>
 
 <h1 align="center">:technologist: Autor</h1>
 <h3 align="center">LinkedIn - https://www.linkedin.com/in/rodrigobarros2802/</h3>
