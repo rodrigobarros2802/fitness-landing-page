@@ -159,7 +159,18 @@ header .navigation li a:hover {
         flex-direction: column;
         background: var(--preto);
         font-size: 30px;
-        margin: 20px 0;
-        z-index: 11;
+        margin: 10px 0;
+        z-index: 10;
+    }
+
+    .toggleMenu {
+        position: relative;
+        background: url(/assets/img/menu.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
     }
 }
